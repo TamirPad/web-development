@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Send+Flowers&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+   
+    
+  }
+
+  .container {
+    background-color: rgba(255, 234, 166, 0.466);
+    display: flex;
+    width: 100%;
+  }
+
+  .left_div {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 50px 100px 100px 100px;
+    margin: 10px 0px 10px 0px;
+    width: 60%;
+    
+  }
+  h1{
+      font-size:8rem;
+      font-family: send flowers;
+      margin: 10px;
+      padding: 50px;
+  }
+  article{
+    padding: 50px;
+  }
+  .btn_div{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem;
+    
+  }
+.btn{
+    padding: 15px 25px;
+    background-color: rgba(173, 162, 125, 0.466);
+}
+
+  .right_div {
+    background-color: white;
+      display: flex;
+      width: 40%;
+      justify-content: center;
+      align-items: center;
+     
+  }
+.btn:hover{
+    background: linear-gradient(#ffdd7f 5%, #c9a135 100%);
+    }
+ 
+  /* Style the footer */
+  .footer {
+    background-color: rgba(255, 234, 166, 0.466);
+    min-height: 10vh;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+  
+  }
+  

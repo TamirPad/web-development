@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Send+Flowers&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+   
+    
+  }
+  .header{
+    background-color: rgba(255, 234, 166, 0.466);
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .header_span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+  }
+  .dropdown{
+    height:0%;
+    width:100%;
+    position: fixed ;
+    z-index: 1;
+   
+    background-color: rgba(255, 234, 166, 0.959);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+
+  .dropdown-lists{
+    position: relative;
+    top: 25%;
+    width:100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .dropdown a{
+    padding: 8px;
+    text-decoration:none;
+    font-size: 45px;
+    font-family: send flowers;
+    color: rgb(0, 0, 0);
+    display: block;
+    transition: 0.3s;
+  }
+  .dropdown a:hover, .dropdown a:focus {
+    color: rgb(255, 139, 139);
+  }
+  .hamburger{
+    display: flex;
+    position: relative;
+    right: 3%;
+   align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    cursor: pointer;
+  }
+.dropdown .buttonX{
+  color: rgb(0, 0, 0);
+  position: relative;
+  left: 95%;
+  font-size: 50px;
+  cursor: pointer; 
+}
+  .container {
+    background-color: rgba(255, 234, 166, 0.466);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   min-height: 41rem;
+   padding-bottom: 12rem;
+  }
+
+  
+  
+  h1{
+      font-size:5rem;
+      font-family: send flowers;
+      margin: 10px;
+      padding-left: 10rem;
+  }
+  article{
+    padding: 0px 500px;
+  }
+  
+.btn{
+  margin-top: 5rem;
+    padding: 15px 25px;
+    background-color: rgba(173, 162, 125, 0.466);
+}
+
+
+.btn:hover{
+    background: linear-gradient(#ad9657 5%, #998b69 100%);
+    }
+ 
+  /* Style the footer */
+  .footer {
+    background-color: rgba(255, 234, 166, 0.466);
+    min-height: 10vh;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+  
+  }
+  

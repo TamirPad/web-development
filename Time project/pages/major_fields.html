@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Time</title>
+    <link rel="stylesheet" href="../css/major_fields.css">
+    <script src="../js/major_fields.js"></script>
+</head>
+<body>
+    <div class="header">
+        <span class="header_span"><h1>My Time</h1></span>
+        <div id="myMenu" class="dropdown">
+            <a href="javascript: void(0)" class="buttonX" onclick="closeMenu()">&times;</a>
+        
+            <div class="dropdown-lists">
+                <a href="major_fields.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="../index.html">Logout</a>
+                
+            </div>
+        </div>
+        <span class="hamburger" onclick="openMenu()">&#9776;</span>
+        
+    </div>
+    <div class="container">
+        
+       
+        <div class="majors">
+            <div class="left_div">
+                <div class="cells" id="career" onclick="location.href='career.html';" style="cursor: pointer;"><img src="../_img/career.png"><label class="majors_label" for="career_label">Career</label></div>
+                <div class="cells" id="finance" onclick="location.href='finance.html';" style="cursor: pointer;"><img src="../_img/finance.png"><label class="majors_label" for="finance_label">Finance</label></div>
+            </div>
+            <div class="middle_div">
+                <div class="cells" id="leisure" onclick="location.href='leisure.html';" style="cursor: pointer;"><img src="../_img/leisure.png"><label class="majors_label" for="liesure_label">Liesure</label></div>
+                <div class="cells" id=" social" onclick="location.href='social.html';" style="cursor: pointer;"><img src="../_img/social.png"><label class="majors_label" for="social_label">Social</label></div>
+
+            </div>
+            <div class="right_div">
+                <div class="cells" id=" health" onclick="location.href='health.html';" style="cursor: pointer;"><img src="../_img/health.png"><label class="majors_label" for="health_label">Health</label></div>
+                <div class="cells" id="education" onclick="location.href='education.html';" style="cursor: pointer;"><img src="../_img/education.png"><label class="majors_label" for="education_label">Education</label></div>
+
+            </div>
+        </div>  
+    </div>
+    <div class="footer">
+        <footer>My Time ©</footer>
+    </div>
+
+</body>
+</html>

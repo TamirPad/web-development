@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Send+Flowers&display=swap');
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Send Flowers', cursive;
+  }
+  .header{
+    background-color: rgba(255, 234, 166, 0.466);
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .header_span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dropdown{
+    height:0%;
+    width:100%;
+    position: fixed ;
+    z-index: 1;
+   
+    background-color: rgba(255, 234, 166, 0.959);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+
+  .dropdown-lists{
+    position: relative;
+    top: 25%;
+    width:100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .dropdown a{
+    padding: 8px;
+    text-decoration:none;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    display: block;
+    transition: 0.3s;
+  }
+  .dropdown a:hover, .dropdown a:focus {
+    color: rgb(255, 139, 139);
+  }
+  .hamburger{
+    display: flex;
+    position: relative;
+    right: 3%;
+   align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    cursor: pointer;
+  }
+.dropdown .buttonX{
+  color: rgb(0, 0, 0);
+  position: relative;
+  left: 95%;
+  font-size: 50px;
+  cursor: pointer; 
+}
+  .majors_label{
+    font-size:1.3rem;
+    font-family: 'Lato', sans-serif;
+    margin: 0.1rem;
+  }
+  h1{
+    font-family: 'Send Flowers', cursive;
+    font-size:5rem;
+    padding-left: 10rem;
+  }
+
+  .container {
+    background-color: rgba(255, 234, 166, 0.466);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 64vh;
+  }
+
+  .majors{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .left_div {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    flex-direction: column;
+    width: 50%;
+  }
+  .middle_div {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .right_div { 
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;  
+      width: 50%; 
+  }
+  
+  .cells{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10rem;
+    width: 15rem;
+    padding:10px;
+    margin: 10px;
+    
+  }
+  .cells:hover{
+    background-color: rgba(255, 234, 166, 0.4);
+   
+  }
+ 
+  /* Style the footer */
+  .footer {
+    background-color: rgba(255, 234, 166, 0.466);
+    min-height: 10vh;
+    display: flex;
+    justify-content:end;
+    align-items: flex-end;
+   padding: 1rem;
+  }
+  
