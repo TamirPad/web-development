@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <div>
+    <h1>Tic tac toe</h1>
+  </div>
+
+  <div id="container">
+    <table id="board">
+      <tr>
+        <td onclick="drawInCell(0)" id="0"></td>
+        <td onclick="drawInCell(1)" id="1"></td>
+        <td onclick="drawInCell(2)" id="2"></td>
+      </tr>
+      <tr>
+        <td onclick="drawInCell(3)" id="3"></td>
+        <td onclick="drawInCell(4)" id="4"></td>
+        <td onclick="drawInCell(5)" id="5"></td>
+      </tr>
+      <tr>
+        <td onclick="drawInCell(6)" id="6"></td>
+        <td onclick="drawInCell(7)" id="7"></td>
+        <td onclick="drawInCell(8)" id="8"></td>
+      </tr>
+    </table>
+  </div>
+  <h2 id="consol"> </h2>
+  <div id="footer">
+    <input type="button" onclick="generatePlayer()" value= "Start">
+    <input type="button" onClick="window.location.reload();" value="Reset"></br>
+  </div>
+</body>
+</html>

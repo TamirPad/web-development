@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="Board.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="pageContainer">
+    <div id = "header">
+        <h1>Tic Tac Toe</h1>
+        <h2 class ="foo" id="consol">Player 'X' starts!</h2>
+        <h2 id="counter">Moves played: 0</h2>
+    </div>
+    
+    <div id="container">
+    </div>
+    
+    <div id="footer">
+        <input type="button" class= "buttons" onclick="newG(3)"  value= "New Game">
+        <input type="button" class= "buttons" onclick="changeM()" value= "Change Mode">
+        <input type="button" class= "buttons" onclick="deleteL()" value= "Delete Last Move">
+        <input type="button" class="buttons" onclick="showR()" value= "Show Record">
+        <input type="button" class= "buttons" onclick="save()" value= "save">
+        <input type="button" class= "buttons" onclick="load()" value= "Load"></br>
+    </div>
+
+    </div>
+</body>
+</html>  
